@@ -1,3 +1,4 @@
+class env extends uvm_env;
 `uvm_component_utils(env)
  
 function new(input string inst = "env", uvm_component c);
@@ -20,4 +21,4 @@ endfunction
  
 endclass
  
-/
+
